@@ -1,0 +1,46 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+  {% load static %}
+  
+  {% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix ">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/css/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Puntualidad</span>
+            <span class="section-heading-lower">El mejor stock</span>
+          </h2>
+          <p class="mb-3">En nuestro catálogo encontrará marcas famosas pero también auténticos paisajes embotellados, vinos con alma, frutos de la tierra y el sol, expresiones del terruño que honestamente reflejan el perfil de cada añada.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Compromiso total</span>
+                <span class="section-heading-lower">Garantizado</span>
+              </h2>
+              <p class="mb-0 text-start">Porque somos su tienda de vinos online: con la mejor selección, un servicio de calidad y una atención personalizada y de confianza.</p>
+              <p class="mb-0 text-start">Porque somos especialistas en venta online, avalados por más de 16 años de experiencia, con los mejores vinos españoles, italianos, franceses, argentinos o chilenos en catálogo, un servicio de entrega rápido y garantizado, y miles y miles de clientes satisfechos en toda Europa. Una amplísima comunidad compartiendo pasión y buen vino.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endblock %}
+
+   
