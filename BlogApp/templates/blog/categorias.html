@@ -27,8 +27,8 @@
                 <p>Categorías:</p>
                 <p>
                     {% for post in posts %}
-                        {% for categoria in post.categoria.all %} 
-                            <a href="{% url 'Categoria' categoria.id %}" class="vinculoCategorias">{{categoria.nombre}}</a> &nbsp &nbsp
+                        {% for categoria in post.categoria.all %}
+                            {{categoria.nombre}} &nbsp &nbsp
                         {% endfor %}
                     {% endfor %}
                 </p>

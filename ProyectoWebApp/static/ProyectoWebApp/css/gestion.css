@@ -269,6 +269,14 @@ p {
   padding-top: 1.25rem;
 }
 
+.vinculoCategorias{
+  color: white /*!important*/;
+  
+}
+.vinculoCategorias:hover{
+  color: ghostwhite;
+}
+
 a.link{
   color: rgba(255, 255, 255, 0.7);
 }
@@ -290,3 +298,4 @@ ul.errorlist{
   font-style: italic;
   color: red;
 }
+
